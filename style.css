@@ -8,3 +8,8 @@ body {
 h1{
   font-size: 2em;
 }
+
+#divDelBoton {
+  padding: 5px;
+  background-color: green;
+}
