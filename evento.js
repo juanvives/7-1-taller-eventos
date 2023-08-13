@@ -1,3 +1,10 @@
-const botonSaludar = document.getElementById("divDelBoton");
+const divDelBoton = document.getElementById("divDelBoton");
 
-botonSaludar.addEventListener("click", () => alert("Hola! Soy el div"))
+const botonSaludar = document.getElementById("botonSaludar");
+
+divDelBoton.addEventListener("click", () => alert("Hola! Soy el div"));
+
+botonSaludar.addEventListener("click", (event) => {
+  alert("Hola! Soy el boton")
+  event.stopPropagation();
+});
